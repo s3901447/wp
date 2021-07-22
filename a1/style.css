@@ -1,1 +1,193 @@
 /* Insert your styles here */
+
+#mogullogo {
+    width: 35vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+#bioimg {
+    animation: load 10s linear -0.5s 1 forwards;
+    width: 100vh;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    box-shadow: 11px 11px 7px -8px;
+}
+
+.shop img {
+    animation: load 10s linear -0.5s 1 forwards;
+    padding-top: 20px;
+    width: 85vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 11px 7px -11px;
+}
+
+.shop h3 {
+    animation: load 10s linear -0.1s 1 forwards;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+    width: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop p {
+    animation: load 10s linear -0.1s 1 forwards;
+    max-width: 800px;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+
+#bio {
+    animation: load 10s linear -0.1s 1 forwards;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+
+body {
+    /*background-color: aqua;*/
+    background-image: url("../../media/testbackground.png");
+}
+
+nav {
+    position: sticky;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Graduate', cursive;
+    word-spacing: 40px;
+    height: 100px;
+}
+
+nav a:hover {
+    font-size: 25.5px;
+}
+
+nav a {
+    display: inline-block;
+    background: #FF69B4;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 3px 3px 8px -2px black;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    width: 161vh;
+    font-family: 'Graduate', cursive;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.small-container {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4 {
+
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+
+}
+.col-4 img {
+    animation: load 10s linear -0.5s 1 forwards;
+    height: 32vh;
+    width: auto;
+    box-shadow: 3px 3px 8px 0px;
+}
+
+.col-4 h4 {
+    animation: load 10s linear -0.1s 1 forwards;
+    font-family: 'Graduate', cursive;
+}
+
+.col-4 p {
+    animation: load 10s linear -0.1s 1 forwards;
+    font-family: 'Graduate', cursive;
+}
+
+.Title {
+    animation: load 5s linear 0s 1 forwards;
+    text-align: center;
+    position: relative;
+    line-height: 16px;
+    font-family: 'Graduate', cursive;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+    width: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title::after {
+    content: "";
+    background: #FF69B4;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rating .fa {
+    animation: load 10s linear -0.1s 1 forwards;
+    color: #FF69B4;
+}
+
+.quantity input {
+    animation: load 10s linear -0.1s 1 forwards;
+    font-family: 'Graduate', cursive;
+}
+
+.btn {
+    animation: load 10s linear -0.1s 1 forwards;
+}
+
+@keyframes load {
+    0% {opacity: 0;}
+    25% {opacity: 25;}
+    50% {opacity: 50;}
+    75% {opacity: 75;}
+    100% {opacity: 100;}
+}

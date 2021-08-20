@@ -1,0 +1,326 @@
+* {
+    font-family: 'Graduate', cursive;
+}
+
+#mogullogo {
+    width: 35vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+#bioimg {
+    animation: load 10s linear -0.5s 1 forwards;
+    width: 100vh;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    box-shadow: 11px 11px 7px -8px;
+}
+
+.shop img {
+    animation: load 10s linear -0.5s 1 forwards;
+    padding-top: 20px;
+    width: 85vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 11px 7px -11px;
+}
+
+.shop #minthoodie:hover {
+    cursor: pointer;
+}
+
+.shop h3 {
+    animation: load 10s linear -0.1s 1 forwards;
+    text-align: center;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+    width: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop p {
+    animation: load 10s linear -0.1s 1 forwards;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+
+#bio {
+    animation: load 10s linear -0.1s 1 forwards;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+
+body {
+    background-image: url("../../media/testbackground.png");
+}
+
+#nav {
+    position: sticky;
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 40px;
+    height: 100px;
+}
+
+#nav a:hover {
+    font-size: 25.5px;
+}
+
+#nav a {
+    display: inline-block;
+    background: #FF69B4;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 3px 3px 8px -2px black;
+}
+
+#footer {
+    position: static;
+    bottom: 0;
+    width: 161vh;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.small-container {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4 {
+
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+
+}
+.col-4 img {
+    animation: load 10s linear -0.5s 1 forwards;
+    height: 32vh;
+    width: auto;
+    box-shadow: 3px 3px 8px 0px;
+}
+
+.col-4 h4 {
+    animation: load 10s linear -0.1s 1 forwards;
+}
+
+.col-4 p {
+    animation: load 10s linear -0.1s 1 forwards;
+}
+
+.Title {
+    animation: load 5s linear 0s 1 forwards;
+    text-align: center;
+    position: relative;
+    line-height: 16px;
+    background-color: #38e6d5;
+    padding: 8px 30px;
+    border-radius: 30px;
+    width: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title::after {
+    content: "";
+    background: #FF69B4;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rating .fa {
+    animation: load 10s linear -0.1s 1 forwards;
+    color: #FF69B4;
+}
+
+.quantity input {
+    animation: load 10s linear -0.1s 1 forwards;
+}
+
+.btn {
+    animation: load 10s linear -0.1s 1 forwards;
+}
+
+@keyframes load {
+    0% {opacity: 0;}
+    25% {opacity: 25;}
+    50% {opacity: 50;}
+    75% {opacity: 75;}
+    100% {opacity: 100;}
+}
+
+.btn-group button {
+    border-radius: 10px;
+    background-color: #FF69B4;
+    border: 1px;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+    background-color: #ff59ac;
+}
+
+.Cart {
+    background-image: url("../../media/twitch_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 900px;
+    height: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 180px;
+}
+
+.innerCart {
+    position: relative;
+    width: 701px;
+    left: 116px;
+    bottom: 121px;
+    height: 467px;
+}
+
+.Cart #list {
+    list-style-type: none;
+}
+
+.Cart h1 {
+    position: relative;
+    bottom: 130px;
+    left: 25px;
+}
+.Cart h4 {
+    position: relative;
+    right: 260px;
+    bottom: 135px;
+}
+
+.Cart #bonetext {
+    position: relative;
+    right: 260px;
+    bottom: 170px;
+}
+
+.Cart #pinktext {
+    position: relative;
+    right: 260px;
+    bottom: 207px;
+}
+
+.Cart #mint {
+    right: 218px;
+    top: 50px;
+    position: relative;
+    width: 200px;
+}
+
+.Cart #list {
+    position: relative;
+    left: 240px;
+    bottom: 90px;
+}
+
+.Cart #Cost {
+    position: relative;
+    left: 15px;
+}
+
+.Cart #Quantity {
+    position: relative;
+    left: 25px;
+}
+
+.Cart #quantitylabel {
+    position: relative;
+    left: 24px;
+}
+
+.info {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    text-align: left;
+    border-spacing: 5px;
+}
+
+.info #submit {
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info #submit:hover {
+    cursor: pointer;
+}
+
+.receiptpage {
+    background-color: white;
+}
+
+.receiptpage body {
+    background-image: url("");
+}
+
+.receipt {
+    position: relative;
+    text-align: left;
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.receiptpage #footer {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#list2 {
+    border-spacing: 15px;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}

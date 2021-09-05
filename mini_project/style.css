@@ -1,0 +1,58 @@
+/* Note to self: Mobile first design, ie single column layout as default */
+
+
+
+
+@media only screen and (min-width : 800px) {
+
+
+  
+}
+
+.container {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+header {
+    width: 19vw;
+    height: auto;
+}
+
+#logo {
+    display: inline;
+    vertical-align: middle;
+}
+
+nav {
+    width: 79vw;
+    text-align: right;
+}
+
+#nav {
+    display: none;
+}
+
+#textbox {
+    width: 30vw;
+}
+
+#complete {
+    width: 30.4vw;
+}
+
+footer {
+    margin-top: 3px;
+}
+
+main {
+    height: 75vh;
+}
+
+#logindetails {
+    display: none;
+}
+
+#construction {
+    display: none;
+}
